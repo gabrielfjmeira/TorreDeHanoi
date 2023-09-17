@@ -115,10 +115,7 @@ public class Operacoes {
     //Distribuí os elementos entre as três pilhas para realizar a solução automática
     public static void manipulaPilhaInicio(Pilha pilhaA, Pilha pilhaB, Pilha pilhaC){
         //No início do jogo tentamos tirar os elementos da pilhaA
-        while (pilhaA.getTopo() != null){
-            //Pega a informação do topo da pilhaA
-            int infoA = pilhaA.getTopo().getInformacao();
-
+        while (pilhaA.getTopo() != null){            
             //Insere a informação do topo da pilhaA na pilhaB caso ela esteja vazia
             if(pilhaB.getTopo() == null){
                 moveTopoPilhaToPilha(pilhaA, pilhaB);
