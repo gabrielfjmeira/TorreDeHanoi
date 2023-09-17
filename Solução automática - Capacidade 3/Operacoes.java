@@ -152,7 +152,7 @@ public class Operacoes {
 
     }
 
-    //Operação de solução automática - método de força bruta
+    //Solução automática - método otimizado para torre de hanoi com capacidade 3
     public static void solucaoAutomatica() {
         while (true){
             //Imprime as pilhas
