@@ -105,7 +105,7 @@ public class Main {
                             break;
                     }
                     break;
-                //Solução automática - método de força bruta
+                //Solução automática - método otimizado para torre de hanoi com capacidade 3
                 case 2:
                     Operacoes.solucaoAutomatica();
                     break;
